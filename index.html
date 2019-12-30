@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="artist sewing">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <script src="js/javascript.min.js"></script>
+    <link rel="shortcut icon" href="img/logoF.ico" type="image/x-icon">
+    <link rel="icon" href="img/logoF.ico" type="image/x-icon">
+
+    <title> Lashes by & Justyna Sokołowska-Pomian</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <!--Bootstrap Carousel-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap_carousel.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<main class="main">
+
+    <section id="welcome" class="welcome">
+
+        <div class="welcome__body">
+            <h1 class="welcome__main_title">
+
+            </h1>
+            <h2 class="welcome__title">Lashes by & Justyna Sokołowska-Pomian</h2>
+            <hr class="welcome__break">
+            <p class="welcome__text">
+                " Jeśli możesz sobie coś wymarzyć, możesz też tego dokonać."
+
+                — WALT DISNEY
+            </p>
+        </div>
+
+        <a href="#about">
+            <picture>
+                <source srcset="img/compressed/arrowDown.webp" type="image/webp">
+                <source srcset="img/arrowDown.png" type="image/png">
+                <img class="welcome__arrow" src="img/arrowDown.png" alt="go to about section">
+            </picture>
+        </a>
+
+    </section>
+
+    <nav class="nav">
+
+        <ul class="nav__list">
+            <div class="mobile_button__link">
+                <a href="javascript:void(0);" class="mobile_button__icon" onclick="nav_mobile()">&#9776;</a>
+            </div>
+
+            <div class="nav__links" id="nav__links">
+                <li class="nav__item block--left">
+                    <a class="nav__link welcome__logo--link" href="#welcome">
+                        <picture>
+                            <img style="height: 20px;width: 20px" src="img/logoBG-J.png">
+                            <span><b>Lashes by & Justyna Sokołowska-Pomian</b>
+                            </span>
+                        </picture>
+                    </a>
+                </li>
+                <li class="nav__item"><a class="nav__link" href="#contact">Kontakt</a></li>
+                <li class="nav__item"><a class="nav__link" href="#porady">Media </a></li>
+                <li class="nav__item"><a class="nav__link" href="#works">Praca</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about">O mnie</a></li>
+            </div>
+
+        </ul>
+
+    </nav>
+
+    <section id="about" class="about">
+        <h2 class="about__title">Kilka słów o mnie</h2>
+        <hr>
+        <span class="about__text" style="line-height:50px">
+        Jestem styliską rzęs praca to moją pasja.
+            Ukończyłam specjalistyczne kursy stylizacji Complex- 1:1,2-2D,4-8D i zawodowo zajmuję się dbanniem o kobiece piękno.
+            Prywatnie  szczęśliwa mama  i żona.
+
+
+
+
+        </span>
+    </section>
+
+    <section id="works" class="works">
+
+        <h2 class="text--center">Praca</h2>
+        <hr>
+
+        <div class="works__body">
+
+            <div class="works__block works__metamorfozy">
+                <div class="works__block--darker">
+                    <a class="works__link" href="#metamorfozy">
+                        <div class="works__caption">
+                            <h3 class="works__title">metamorfozy</h3>
+                            <p class="works_text"> piękne</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="works__block works__klient">
+                <div class="works__block--darker">
+                    <a class="works__link" href="#klient">
+                        <div class="works__caption">
+                            <h3 class="works__title">Opinie </h3>
+                            <p class="works_text"> Zadowolone klientki</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="works__block works__porady">
+                <div class="works__block--darker">
+                    <a class="works__link" href="#porady">
+                        <div class="works__caption">
+                            <h3 class="works__title">Porady</h3>
+                            <p class="works_text">warto wiedzieć </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="works__block works__media">
+                <div class="works__block--darker">
+                    <a class="works__link" href="#porady">
+                        <div class="works__caption">
+                            <h3 class="works__title">Media</h3>
+                            <p class="works_text">facebook </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="video__line&#45;&#45;leftUp"></div>
+
+
+    </section>
+    <section id="metamorfozy">
+
+        <!--Carousel metamorfozy-->
+
+        <div id="carousel-meta" class="carousel slide" data-ride="carousel">
+            <a href="#welcome">
+                <picture>
+                    <source srcset="img/compressed/angleUp.webp" type="image/webp">
+                    <source srcset="img/angleUp.png" type="image/png">
+                    <img class="footer__angle_up" src="img/angleUp.png" alt="go to start of the site">
+                </picture>
+            </a>
+            <h2>Metamorofozy</h2>
+            <hr>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img class="carousel-img" src="img/met0.jpg" alt="met">
+                </div>
+                <div class="carousel-item">
+
+                    <img class="carousel-img" src="img/met1.jpg" alt="met">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/met2.jpg" alt="met">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/met3.jpg" alt="met">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/met4.jpg" alt="met">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/met5.jpg" alt="met">
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="img/met6.jpg" alt="met">
+                </div>
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#carousel-meta" role="button" data-slide="prev"
+               style="color: goldenrod">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!-- <span class="sr-only">Previous</span>-->
+            </a>
+            <a class="carousel-control-next" href="#carousel-meta" role="button" data-slide="next"
+               style="color: goldenrod">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="color: goldenrod"></span>
+                <!--   <span class="sr-only">Następn</span>-->
+            </a>
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+                <li data-target="#carousel" data-slide-to="4"></li>
+                <li data-target="#carousel" data-slide-to="5"></li>
+                <li data-target="#carousel" data-slide-to="6"></li>
+
+
+            </ol>
+
+        </div>
+
+
+    </section>
+
+    <section id="klient">
+
+        <!--kolekcja klienkti-->
+
+
+        <div id="carousel-women" class="carousel slide" data-ride="carousel">
+            <a href="#welcome">
+                <picture>
+                    <source srcset="img/compressed/angleUp.webp" type="image/webp">
+                    <source srcset="img/angleUp.png" type="image/png">
+                    <img class="footer__angle_up" src="img/angleUp.png" alt="go to start of the site">
+                </picture>
+            </a>
+            <h2>Opinie Klientek</h2>
+            <hr>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3> "Serdecznie polecam. Piękne rzęsy ❤ " - Aleksandra R</h3>
+                </div>
+                <div class="carousel-item">
+
+                    <h3> "Polecam serdecznie! Przepiękne rzęski i bardzo miła Pani 🤗 "- Martyna K.</h3>
+                </div>
+                <div class="carousel-item">
+                    <h3> "Pełen profesjonalizm ze strony Pani Justyny, serdecznie polecam " -Diana </h3>
+                </div>
+                <div class="carousel-item">
+                    <h3> "Serdecznie polecam tą Panią." -Regina </h3>
+                </div>
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#carousel-women" role="button" data-slide="prev"
+               style="color: goldenrod">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!-- <span class="sr-only">Previous</span>-->
+            </a>
+            <a class="carousel-control-next" href="#carousel-women" role="button" data-slide="next"
+               style="color: goldenrod">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="color: goldenrod"></span>
+                <!--   <span class="sr-only">Następn</span>-->
+            </a>
+
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+
+
+            </ol>
+
+
+        </div>
+
+
+    </section>
+
+
+    <section id="porady">
+        <!-- porady-->
+
+
+        <div id="carousel-film" class="carousel slide" data-ride="carousel">
+            <a href="#welcome">
+                <picture>
+                    <source srcset="img/compressed/angleUp.webp" type="image/webp">
+                    <source srcset="img/angleUp.png" type="image/png">
+                    <img class="footer__angle_up" src="img/angleUp.png" alt="go to start of the site">
+                </picture>
+            </a>
+            <h2>Porady przed zabiegiem </h2>
+            <hr>
+            <ol class="unstyled">
+
+                <li> Przed zabiegiem nie należy pić kawy ani napojów typu "red bull", a także uważać na inne substancje
+                    pobudzające (np. tabletki odchudzające) - powoduje to drganie powieki co może znacznie przedłużyć
+                    zabieg przedłużania rzęs </li>
+                <li> Nie należy używać mechanicznej zalotki do rzęs, tak przed jak i po zabiegu</li>
+                <li> Przed zabiegiem nie powinnaś malować rzęs ani ścierać ich mleczkiem do demakijażu, najlepiej umyj
+                    rzęsy dzień wcześniej a później przemyj je palcami przy użyciu wody   </li>
+
+                <li> Jeśli nosisz szkła kontaktowe możesz poddać się zabiegowi przedłużania rzęs metodą jeden do jednego
+                    jednak przed zabiegiem powinnaś zdjąć szkła
+                </li>
+            </ol>
+
+
+        </div>
+
+    </section>
+    <!--follow-->
+
+    <section id="media" class="follow">
+
+        <h2 class="follow__title">Media społcznościowe </h2>
+        <hr>
+        <ul class="follow__list">
+            <li class="follow__item">
+                <a class="follow__link" href="https://www.facebook.com/Lashes-by-Justyna-Sokołowska-Pomian-116632926389198">
+                    <img class="follow__img" src="icons/icons8-facebook.svg" alt="facebook">
+                </a>
+            </li>
+
+
+        </ul>
+
+    </section>
+
+    <!--contact-->
+
+    <section id="contact" class="contact">
+        <div class="contact__body">
+            <h2 class="contact__title">Kontakt </h2>
+            <hr>
+            <p class="adress_text">
+                Justyna Sokołowska-Pomian<br>
+                Szpitalna 85a/23<br>
+                164-00 Suwałki<br>
+                tel :500 693 769<br>
+                e-mail :justyna.pomian@hotmail.com<br>
+
+
+            </p>
+            <!--     <p class="contact__text">Wyślij mi wiadomość </p>
+                 <form class="contact__form" action="" method="get">
+                     <input class="contact__input" type="text" placeholder="Imię">
+                     <input class="contact__input" type="email" placeholder="e-mail">
+                     <textarea class="contact__textarea" type="text" placeholder="Treść wiadomości"></textarea>
+                     <div class="form__bellow">
+                         <button class="btn contact__button block&#45;&#45;right">Wyślij</button>
+
+                     </div>
+                 </form>-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2338.194468642788!2d22.914902316140207!3d54.12348098014924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e103ae83b59947%3A0xbca6a53d24d135c2!2sSzpitalna%2085A%2C%2016-400%20Suwa%C5%82ki!5e0!3m2!1spl!2spl!4v1577729174736!5m2!1spl!2spl"
+                    width=100% height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <a href="#welcome">
+        <picture>
+            <source srcset="img/compressed/angleUp.webp" type="image/webp">
+            <source srcset="img/angleUp.png" type="image/png">
+            <img class="footer__angle_up" src="img/angleUp.png" alt="go to start of the site">
+        </picture>
+    </a>
+    <picture>        <!--      <source srcset="img/compressed/logoFooterMariaAnna.webp" type="image/webp">
+              <source srcset="img/logoFooterMariaAnna.png" type="image/png">-->
+        <img style="width: 250px; height: 250px" class="footer__logo" src="img/logo.jpg" alt="Lashes">
+    </picture>
+    <p class="footerCopyright">© Copyright 2020 Lashes by & Justyna Sokołowska-Pomian</p>
+</footer>
+
+</body>
+</html>
